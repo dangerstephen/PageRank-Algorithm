@@ -13,13 +13,14 @@ In the early 90s the first search engines used *text based ranking systems*.
 ##PageRank idea and Mathematics
 **Idea:** Sort pages by their relevance.
 
-**How to count relevance(page rank)?**--
+**How to count relevance(page rank)?**<br />
 **Rank** of the page depends on how many pages link to it and on those pages own **Rank** and **number of outgoing links**.
 
-**Example**
+**Example:**<br/>
 ![alt tag](http://www.math.cornell.edu/~mec/Winter2009/RalucaRemus/Lecture3/Images/webpages.jpg)
 
-Let's represent the picture above using **directed graph:**--
+Let's represent the picture above using **directed graph:**<br />
 ![alt tag](http://www.math.cornell.edu/~mec/Winter2009/RalucaRemus/Lecture3/Images/graf2.PNG)
-Based on the graph we can compose a system of equations:--
+Based on the graph we can compose a system of equations:<br />
 ![alt tag](http://www.math.cornell.edu/~mec/Winter2009/RalucaRemus/Lecture3/Images/system.gif)
+Where **x1, x2, x3, x4** importance of each of the pages 1-4.
